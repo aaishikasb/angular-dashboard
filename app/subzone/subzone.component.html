@@ -1,0 +1,23 @@
+<div class="container container-fluid">
+    <div>
+        <h3>SELECT</h3>
+        <form action="http://192.168.225.25:8080/front" method="post">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="">Zone</label>
+                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" name="zone">
+                    <option selected>-- Select --</option>
+                    <option value="1">Zone 1</option>
+                    <option value="2">Zone 2</option>
+                    <option value="3">Zone 3</option>
+                  </select>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="">Traffic Post #</label>
+                <input type="text" class="form-control" name="tpost">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-outline-dark">Check</button>
+        </form>
+    </div>
+  </div>
